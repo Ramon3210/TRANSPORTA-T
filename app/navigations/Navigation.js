@@ -15,29 +15,29 @@ export default function Navigation() {
     <NavigationContainer>
       <Tab.Navigator>
         <Tab.Screen
-          name="alumnos"
+          name="Unidades"
           component={Alumnos}
-          options={{ title: "Alumnos" }}
+          options={{ title: "Unidades" }}
         />
         <Tab.Screen
-          name="grupos"
+          name="Transportadores"
           component={Grupos}
-          options={{ title: "Grupos" }}
+          options={{ title: "Transportadores" }}
         />
         <Tab.Screen
-          name="maestros"
+          name="localización"
           component={Maestros}
-          options={{ title: "Maestros" }}
+          options={{ title: "Localización" }}
         />
         <Tab.Screen
-          name="materias"
+          name="fletes"
           component={Materias}
-          options={{ title: "Materias" }}
+          options={{ title: "Fletes" }}
         />
         <Tab.Screen
-          name="promedios"
+          name="pagos"
           component={Promedios}
-          options={{ title: "Promedios" }}
+          options={{ title: "Pagos" }}
         />
       </Tab.Navigator>
     </NavigationContainer>
